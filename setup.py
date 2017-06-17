@@ -9,7 +9,7 @@ tribus_hash_module = Extension('tribus_hash',
 										  'sph/sph_echo.c'],
                                include_dirs=['.', './sph'])
 
-setup (name = 'tribus_hashs',
+setup (name = 'tribus_hash',
        version = '1.0',
        description = 'Bindings for tribus proof of work used by Denarius',
        ext_modules = [tribus_hash_module])
